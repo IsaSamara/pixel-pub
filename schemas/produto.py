@@ -9,3 +9,8 @@ class ProdutoSchema(BaseModel):
 
     class Config:
         orm_mode = True
+
+class ProdutoCreate(BaseModel):
+    Nome: str
+    Categoria: str
+    DataValidade: datetime

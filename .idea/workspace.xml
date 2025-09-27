@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Adicionado configuração inicial">
-      <change afterPath="$PROJECT_DIR$/crud/produto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/produto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/produto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/produto.py" afterDir="false" />
+    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Adicionado get all produtos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/produto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +92,7 @@
       <workItem from="1758890181737" duration="943000" />
       <workItem from="1758903188672" duration="18000" />
       <workItem from="1759010226872" duration="749000" />
-      <workItem from="1759011938121" duration="2158000" />
+      <workItem from="1759011938121" duration="3528000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionado configuração inicial">
       <option name="closed" value="true" />
@@ -105,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758470984721</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionado get all produtos">
+      <option name="closed" value="true" />
+      <created>1759014241582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759014241582</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionado configuração inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado configuração inicial" />
+    <MESSAGE value="Adicionado get all produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado get all produtos" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1758470830842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
