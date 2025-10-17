@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Adicionado get all produtos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionado configuração inicial" />
+    <MESSAGE value="Adicionado post produtos" />
     <MESSAGE value="Adicionado get all produtos" />
     <option name="LAST_COMMIT_MESSAGE" value="Adicionado get all produtos" />
   </component>

@@ -1,3 +1,4 @@
+# uvicorn main:app --reload
 from fastapi import FastAPI
 from routers import produto
 
