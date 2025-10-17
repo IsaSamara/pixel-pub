@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Adicionado get all produtos">
+    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Ajuste na String de conexão">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +29,12 @@
     &quot;assignee&quot;: &quot;IsaSamara&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/IsaSamara/pixel-pub.git&quot;,
-    &quot;accountId&quot;: &quot;73518909-09f8-4261-a6c9-e1c3d4219a51&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/IsaSamara/pixel-pub.git",
+    "accountId": "5d6b5e8b-1784-4ef6-a812-ac8374c8898c"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -109,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759014241582</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajuste na String de conexão">
+      <option name="closed" value="true" />
+      <created>1760663630526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760663630526</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +137,8 @@
     <MESSAGE value="Adicionado configuração inicial" />
     <MESSAGE value="Adicionado post produtos" />
     <MESSAGE value="Adicionado get all produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado get all produtos" />
+    <MESSAGE value="Ajuste na String de conexão" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste na String de conexão" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1758470830842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
