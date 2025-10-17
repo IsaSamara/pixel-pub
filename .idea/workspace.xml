@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Post &amp; GET mesa corrigido">
-      <change afterPath="$PROJECT_DIR$/crud/reservaMesa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/reservaMesa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/reservaMesa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/reservaMesa.py" afterDir="false" />
+    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="CRUD reserva Mesa">
+      <change afterPath="$PROJECT_DIR$/crud/estoque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/estoque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/estoque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/estoque.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -143,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760724095317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CRUD reserva Mesa">
+      <option name="closed" value="true" />
+      <created>1760728900367</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760728900367</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +176,8 @@
     <MESSAGE value="Adicionado para o Swagger abri automaticamente" />
     <MESSAGE value="Post &amp; GET usuario corrigido" />
     <MESSAGE value="Post &amp; GET mesa corrigido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post &amp; GET mesa corrigido" />
+    <MESSAGE value="CRUD reserva Mesa" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD reserva Mesa" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1758470830842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
