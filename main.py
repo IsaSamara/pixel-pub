@@ -1,7 +1,7 @@
 # uvicorn main:app --reload
 import webbrowser
 from fastapi import FastAPI
-from routers import produto, usuario, mesa, reservaMesa, estoque
+from routers import produto, usuario, mesa, reservaMesa, estoque, movimentoEstoque
 
 app = FastAPI()
 
@@ -14,6 +14,8 @@ app.include_router(mesa.router)
 app.include_router(reservaMesa.router)
 
 app.include_router(estoque.router)
+
+app.include_router(movimentoEstoque.router)
 
 import threading
 def open_browser():

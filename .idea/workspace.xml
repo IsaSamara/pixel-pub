@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Feito correcao de Estoque">
-      <change afterPath="$PROJECT_DIR$/crud/movimentoEstoque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/movimentoEstoque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/movimentoEstoque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/movimentoEstoque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/reservaMesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/reservaMesa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/reservaMesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/reservaMesa.py" afterDir="false" />
+    <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Movimento Estoque e Reserva Mesa corrigidos, ainda com falhas para dar GET &amp; SET">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760730708418</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Movimento Estoque e Reserva Mesa corrigidos, ainda com falhas para dar GET &amp; SET">
+      <option name="closed" value="true" />
+      <created>1760733639575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760733639575</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Movimento Estoque e Reserva Mesa corrigidos, ainda com falhas para dar GET &amp; SET">
+      <option name="closed" value="true" />
+      <created>1760733667820</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760733667820</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +197,8 @@
     <MESSAGE value="Post &amp; GET mesa corrigido" />
     <MESSAGE value="CRUD reserva Mesa" />
     <MESSAGE value="Feito correcao de Estoque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feito correcao de Estoque" />
+    <MESSAGE value="Movimento Estoque e Reserva Mesa corrigidos, ainda com falhas para dar GET &amp; SET" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movimento Estoque e Reserva Mesa corrigidos, ainda com falhas para dar GET &amp; SET" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1758470830842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
