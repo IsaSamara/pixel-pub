@@ -1,11 +1,13 @@
 # uvicorn main:app --reload
 import webbrowser
 from fastapi import FastAPI
-from routers import produto
+from routers import produto, usuario
 
 app = FastAPI()
 
 app.include_router(produto.router)
+
+app.include_router(usuario.router)
 
 import threading
 def open_browser():
