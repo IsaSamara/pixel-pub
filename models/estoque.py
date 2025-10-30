@@ -8,4 +8,4 @@ class Estoque(Base):
     Id = Column(Integer, primary_key=True, index=True)
     ProdutoId = Column(Integer, ForeignKey("Usuario.Id"), nullable=False)
     Quantidade = Column(Integer)
-    DataAtualizacai = Column(DateTime)
+    DataAtualizacao = Column(DateTime)

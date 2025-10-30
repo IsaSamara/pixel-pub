@@ -1,3 +1,4 @@
+from typing import Optional
 from pydantic import BaseModel
 from datetime import datetime
 
@@ -14,3 +15,8 @@ class ProdutoCreate(BaseModel):
     Nome: str
     Categoria: str
     DataValidade: datetime
+
+class ProdutoUpdate(BaseModel):
+    Nome: Optional[str] = None
+    Categoria: Optional[str] = None
+    DataValidade: Optional[datetime] = None

@@ -2,7 +2,6 @@ from pydantic import BaseModel
 from datetime import datetime
 
 
-
 class EstoqueSchema(BaseModel):
     Id: int
     ProdutoId: int
@@ -16,3 +15,4 @@ class EstoqueCreate(BaseModel):
     ProdutoId: int
     Quantidade: int
     DataAtualizacao: datetime
+
