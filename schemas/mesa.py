@@ -1,4 +1,3 @@
-from typing import Optional
 from pydantic import BaseModel
 
 class MesaSchema(BaseModel):
@@ -8,7 +7,7 @@ class MesaSchema(BaseModel):
     Status: str
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class MesaCreate(BaseModel):
     Numero: str
@@ -16,6 +15,6 @@ class MesaCreate(BaseModel):
     Status: str
 
 class MesaUpdate(BaseModel):
-    Numero: Optional[str] = None
-    Capacidade: Optional[int] = None
-    Status: Optional[str] = None
+    Numero: str
+    Capacidade: int
+    Status: str

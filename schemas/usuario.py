@@ -1,6 +1,5 @@
 from pydantic import BaseModel
 
-
 class UsuarioSchema(BaseModel):
     Id: int
     Nome: str
@@ -9,9 +8,15 @@ class UsuarioSchema(BaseModel):
     Senha: str
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class UsuarioCreate(BaseModel):
+    Nome: str
+    Cargo: str
+    Email: str
+    Senha: str
+
+class UsuarioUpdate(BaseModel):
     Nome: str
     Cargo: str
     Email: str

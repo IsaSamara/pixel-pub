@@ -1,8 +1,6 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-
-
 class MovimentoEstoqueSchema(BaseModel):
     Id: int
     EstoqueId: int
@@ -12,7 +10,7 @@ class MovimentoEstoqueSchema(BaseModel):
     DataMovimentacao: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class MovimentoEstoqueCreate(BaseModel):
     EstoqueId: int

@@ -1,4 +1,3 @@
-from typing import Optional
 from pydantic import BaseModel
 from datetime import datetime
 
@@ -9,7 +8,7 @@ class ProdutoSchema(BaseModel):
     DataValidade: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class ProdutoCreate(BaseModel):
     Nome: str
@@ -17,6 +16,6 @@ class ProdutoCreate(BaseModel):
     DataValidade: datetime
 
 class ProdutoUpdate(BaseModel):
-    Nome: Optional[str] = None
-    Categoria: Optional[str] = None
-    DataValidade: Optional[datetime] = None
+    Nome: str
+    Categoria: str
+    DataValidade: datetime

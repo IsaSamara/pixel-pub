@@ -1,7 +1,6 @@
 from sqlalchemy.orm import Session
 from models.usuario import Usuario
-from schemas.usuario import UsuarioCreate
-
+from schemas.usuario import UsuarioCreate, UsuarioUpdate
 
 def listar_usuarios(db: Session):
     return db.query(Usuario).all()
@@ -16,4 +15,32 @@ def criar_usuario(db: Session, usuario: UsuarioCreate):
     db.add(db_usuario)
     db.commit()
     db.refresh(db_usuario)
+    return db_usuario
+
+def atualizar_usuario(db: Session, usuario_id: int, usuario: UsuarioUpdate):
+    db_usuario = db.query(Usuario).filter(Usuario.Id == usuario_id).first()
+
+    if not db_usuario:
+
+        return None
+
+    db_usuario.Nome = usuario.Nome
+    db_usuario.Cargo = usuario.Cargo
+    db_usuario.Email = usuario.Email
+    db_usuario.Senha = usuario.Senha
+
+
+    db.commit()
+    db.refresh(db_usuario)
+    return db_usuario
+
+def excluir_usuario(db: Session, usuario_id: int):
+    db_usuario = db.get(Usuario, usuario_id)
+
+    if not db_usuario:
+        return None
+
+    db.delete(db_usuario)
+    db.commit()
+
     return db_usuario

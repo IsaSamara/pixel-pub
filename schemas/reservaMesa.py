@@ -9,7 +9,7 @@ class ReservaMesaSchema(BaseModel):
     Status: str
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class ReservaMesaCreate(BaseModel):
     MesaId: int
