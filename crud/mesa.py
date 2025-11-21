@@ -1,3 +1,4 @@
+from fastapi import HTTPException
 from sqlalchemy.orm import Session
 from models.mesa import Mesa
 from schemas.mesa import MesaCreate, MesaUpdate
@@ -6,6 +7,10 @@ def listar_mesas(db: Session):
     return db.query(Mesa).all()
 
 def criar_mesa(db: Session, mesa: MesaCreate):
+    mesa_existe = db.query(Mesa).filter(Mesa.Numero == mesa.Numero).first()
+    if mesa_existe:
+        raise HTTPException(status_code=400, detail="Mesa já cadastrada")
+
     db_mesa = Mesa(
         Numero=mesa.Numero,
         Capacidade=mesa.Capacidade,
@@ -17,11 +22,10 @@ def criar_mesa(db: Session, mesa: MesaCreate):
     return db_mesa
 
 def atualizar_mesa(db: Session, mesa_id: int, mesa: MesaUpdate):
-    db_mesa = db.query(Mesa).filter(Mesa.Id == mesa_id).first()
+    db_mesa = db.get(Mesa, mesa_id)
 
     if not db_mesa:
-
-        return None
+        raise  HTTPException(status_code=404, detail=f"Mesa de ID {mesa_id} não existe")
 
     db_mesa.Numero = mesa.Numero
     db_mesa.Capacidade = mesa.Capacidade
@@ -35,7 +39,8 @@ def excluir_mesa(db: Session, mesa_id: int):
     db_mesa = db.get(Mesa, mesa_id)
 
     if not db_mesa:
-        return None
+        if not db_mesa:
+            raise HTTPException(status_code=404, detail=f"Mesa de ID {mesa_id} não existe")
 
     # Remove do banco
     db.delete(db_mesa)

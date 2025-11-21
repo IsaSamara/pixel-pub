@@ -15,5 +15,5 @@ def get_reservaMesas(db: Session = Depends(get_db)):
     return listar_reserva_mesa(db)
 
 @router.post("/", response_model=ReservaMesaSchema, status_code=201)
-def post_mesa(reservaMesa: ReservaMesaCreate, db: Session = Depends(get_db)):
+def post_reservaMesas(reservaMesa: ReservaMesaCreate, db: Session = Depends(get_db)):
     return criar_reserva_mesa(db, reservaMesa)
