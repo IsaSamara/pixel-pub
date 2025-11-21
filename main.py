@@ -1,9 +1,20 @@
 # uvicorn main:app --reload
 import webbrowser
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from routers import produto, usuario, mesa, reservaMesa, estoque, movimentoEstoque
 
 app = FastAPI()
+
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(produto.router)
 

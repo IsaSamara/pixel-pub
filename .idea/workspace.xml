@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda5ac0a-2a7b-48da-827e-4278f1fcd994" name="Changes" comment="Movimento Estoque e Reserva Mesa corrigidos, ainda com falhas para dar GET &amp; SET">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/estoque.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/estoque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/mesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/mesa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/reservaMesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/reservaMesa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/estoque.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/estoque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/reservaMesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/reservaMesa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/estoque.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/estoque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/mesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/mesa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/estoque.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/estoque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/mesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/mesa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/reservaMesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/reservaMesa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/IsaSamara/pixel-pub.git&quot;,
-    &quot;accountId&quot;: &quot;5d6b5e8b-1784-4ef6-a812-ac8374c8898c&quot;
+    &quot;accountId&quot;: &quot;82d5cff3-ceb4-4ca7-9102-419f78f913e2&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -75,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "FastAPI.FastAPI.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Uvicorn.executor": "Debug",
-    "Python.main.executor": "Run",
-    "Python.reservaMesa.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/kutle/OneDrive/Área de Trabalho/pixel-pub",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;FastAPI.FastAPI.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Uvicorn.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reservaMesa.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kutle/OneDrive/Área de Trabalho/pixel-pub&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\2015i\PycharmProjects\PythonProject" />
@@ -162,15 +146,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="FastAPI.FastAPI" />
-      <item itemvalue="FastAPI.Unnamed" />
       <item itemvalue="Python.Uvicorn" />
     </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
         <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
@@ -190,7 +171,8 @@
       <workItem from="1759010226872" duration="749000" />
       <workItem from="1759011938121" duration="3528000" />
       <workItem from="1761746493976" duration="2157000" />
-      <workItem from="1761762272433" duration="12131000" />
+      <workItem from="1761762272433" duration="12632000" />
+      <workItem from="1763723933381" duration="1197000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionado configuração inicial">
       <option name="closed" value="true" />
@@ -272,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760733667820</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Movimento Estoque e Reserva Mesa corrigidos, ainda com falhas para dar GET &amp; SET">
+      <option name="closed" value="true" />
+      <created>1761791610249</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761791610249</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +273,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
